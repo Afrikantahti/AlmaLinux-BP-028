@@ -69,3 +69,5 @@ The system requires configuration and secrets unique to the user's infrastructur
 * **Configure TLS for rsyslog remote logging (R43)**: It is up to the user to configure the rsyslog server to match their infrastructure.
 
 * **Configure CA certificate for rsyslog remote logging (R43)**: It is up to the user to configure the TLS certificates to match their infrastructure.
+
+* **WAZUH/OSSEC requires /dev/mapper/vg_root-lv_var /var                    xfs     defaults,nodev 0 0
