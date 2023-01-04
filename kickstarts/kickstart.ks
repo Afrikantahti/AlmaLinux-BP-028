@@ -21,7 +21,7 @@ authselect --passalgo=sha512 --useshadow
 
 # Locale
 lang en_US.UTF-8
-keyboard us
+keyboard fi
 timezone Etc/UTC --isUtc
 
 # Enable SELinux
