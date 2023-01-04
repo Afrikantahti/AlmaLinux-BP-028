@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Deps
+dnf install epel-release && dnf update
+dnf install xorriso syslinux createrepo curl
+
+
 # Resets the line
 LINE_RESET='\e[2K\r'
 
